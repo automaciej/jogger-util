@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+	<title>Edytuj wpis &laquo; Panel administracyjny &laquo; Jogger.pl</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=990, initial-scale=0.3232" />
+
+    <link rel="stylesheet" type="text/css" href="/t/s/base.css" />
+    <link rel="stylesheet" type="text/css" href="/t/s/frontend.css" />
+
+    <!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" href="/t/s/base-ie6.css" />
+        <link rel="stylesheet" type="text/css" href="/t/s/frontend-ie6.css" />
+    <![endif]-->
+
+	<!--[if !IE]>-->
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" type="text/css" href="/t/s/iphone.css"/>
+	<!--<![endif]-->
+
+    <link rel="shortcut icon" href="favicon-panel.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon-panel.gif" type="image/gif" />
+
+	<script type="text/javascript" src="/t/js/jquery.js"></script>
+    <script type="text/javascript" src="/t/js/plugins.jquery.js"></script>
+    <script type="text/javascript" src="/t/js/jquery.interface.js"></script>
+	<script type="text/javascript" src="/qt.js"></script>
+	<script type="text/javascript" src="/t/js/jogger.js"></script>
+	<script type="text/javascript" src="/t/js/jogger.frontend.js"></script>
+
+    
+
+</head><body id="entry-add" class="logged">
+    <div id="top">
+		<div class="wrap">
+			<h1><a href="/" title="&rarr; Panel sterowania">Jogger.pl</a></h1>
+			<ul id="actions">
+				<li id="access-content"><a href="#content" title="Przeskocz nawigację">Przeskocz nawigację</a></li>
+
+				<li class="accounts"><a href="https://login.jogger.pl/setjid/?id=13685" title="automaciej-test@jabberpl.org"><img height="16" width="16" src="https://login.jogger.pl/icon_automaciej-test/files/favicon.png" alt="" /> automaciej-test</a>
+    				</li>
+				<li class="login"><a href="https://login.jogger.pl/logout/">Wyloguj się</a></li>
+			</ul>
+
+			<ul id="nav">
+				<li id="returnHome"><a href="http://jogger.pl/">Jogger.pl</a></li>
+				<li class="active"><a href="/entries/compose/add/">Wpisy</a>
+					<ul>
+						<li><a href="/entries/compose/add/"><span>Dodaj wpis</span></a></li>						<li><a href="/entries/browse/"><span>Przeglądaj wpisy</span></a></li>						<li><a href="/entries/categories/"><span>Kategorie wpisów</span></a></li>						<li><a href="/entries/levels/"><span>Poziomy wpisów</span></a></li>					</ul>
+				</li>
+				<li><a href="/manage/drafts/">Zarządzaj</a>
+					<ul>
+                        <li><a href="/manage/pages/"><span>Strony</span></a></li>                        <li><a href="/manage/drafts/"><span>Szkice</span></a></li>                        <li><a href="/manage/links/"><span>Linki</span></a></li>                        <li><a href="/manage/comments/"><span>Komentarze</span></a></li>					</ul>
+				</li>
+				<li><a href="/templates/browse/">Szablony</a>
+					<ul>
+                        <li><a href="/templates/browse/"><span>Wybierz szablon</span></a></li>                        <li><a href="/templates/upload/"><span>Wgraj szablon</span></a></li>                        <li><a href="/templates/edit/"><span>Edytuj szablon</span></a></li>                        <li><a href="/templates/files/"><span>Pliki</span></a></li>                        <li><a href="/templates/constants/"><span>Nazwy własne</span></a></li>					</ul>
+				</li>
+				<li><a href="/options/emoticons/">Opcje</a>
+					<ul>
+                        <li><a href="/options/emoticons/"><span>Emotikony</span></a></li>                        <li><a href="/options/banlist/"><span>Blokowanie IP</span></a></li>                        <li><a href="/options/export/"><span>Eksport</span></a></li>					</ul>
+				</li>
+				<li><a id="unregistered" href="/account/settings/">Konto</a>
+					<ul>
+					   <li class="vimportant"><a href="/account/activate/"><span>Aktywacja</span></a></li>                        <li><a href="/account/settings/"><span>Ustawienia</span></a></li>                        <li><a href="/account/comments/"><span>Moje komentarze</span></a></li>                        <li><a href="/account/subscription/"><span>Subskrypcje</span></a></li>                        <li><a href="/account/users/"><span>Użytkownicy</span></a></li>						<li><a href="/account/stat/"><span>Statystyki</span></a></li>
+					</ul>
+				</li>
+				<li id="myJogger"><a href="http://automaciej-test.jogger.pl/">Mój Jogger &raquo;</a></li>
+			</ul>
+
+		</div>
+	</div><!-- top -->
+	<hr />
+
+	<div id="content">
+		<div class="wrap">      
+			<h2 class="frontend">Edytuj wpis</h2>
+			<form class="columns" action="/entries/compose/edit/" method="post">
+                <input type="hidden" name="token" id="token" value="fake-token" />
+                <input type="hidden" name="op" value="add" />
+                <input type="hidden" name="entryID" id="entryID" value="502734" />
+                <input type="hidden" name="draftID" id="draftID" value="0" />
+				<div class="main">
+					<div class="padding">
+						<fieldset>					
+							<div class="block">
+								<label for="entryTitle">Tytuł:</label>
+								<input id="entryTitle" name="entryTitle" class="edit" type="text" value="W Szczebrzeszynie chrząszcz brzmi w trzcinie" size="50" />
+							</div>						
+							<div class="block">
+
+								<label for="entryBody">Treść <em>(HTML)</em>:</label>
+								<textarea id="entryBody" name="entryBody" rows="12" cols="50" class="quicktags">&lt;p&gt;Pchnąć w tę łódź jeża lub &lt;span style=&quot;font-weight: bold;&quot;&gt;ośm&lt;/span&gt; skrzyń fig.&lt;/p&gt;
+</textarea>						
+							</div>						
+							<div class="block">
+								<div class="default">
+									<input class="submit" type="submit" name="submitEntry" value="Zapisz zmiany" /> <input class="button" type="submit" name="submitPreview" id="submitPreviewAjax" value="Podgląd" />
+
+								</div>
+                                <input class="submit" type="submit" name="submitRemove" value="Anuluj" />
+
+							</div>					
+						</fieldset>
+						
+						<fieldset class="divide">
+							<h3>Dodatkowe ustawienia wpisu</h3>
+							<div class="grid">
+								<label for="entryPermalink">Permalink:</label>
+								<div class="fields"><input id="entryPermalink" name="entryPermalink" class="edit" type="text" value="w-szczebrzeszynie-chrzaszcz-brzmi-w-trzcinie" size="50" /></div>
+							</div>
+							<div class="grid">
+								<label for="entryTags">Tagi:</label>
+								<div class="fields"><input id="entryTags" name="entryTags" class="edit" type="text" value="tag1 tag2" size="50" /></div>
+							</div>
+
+							<div class="grid">
+								<label for="entryTrackback">Trackback: <a class="help" href="http://wiki.jogger.pl/wiki/Trackback">?</a></label>
+								<div class="fields"><input id="entryTrackback" name="entryTrackback" class="edit" type="text" value="" size="50" /></div>
+							</div>
+							<div class="grid">
+								<label>Kategorie specjalne: <a class="help" href="http://wiki.jogger.pl/wiki/Kategorie_specjalne">?</a></label>
+								<div class="fields multi">
+
+									<label for=""><input type="checkbox" name="specialCategory[]" value="miniblog" checked="checked" /> Miniblog</label>
+									<label for=""><input type="checkbox" name="specialCategory[]" value="techblog" /> Techblog</label> <span class="annote">(moderowany, tylko wpisy techniczne)</span>
+								</div>
+							</div>
+							<div class="grid">
+								<label>Kto może komentować:</label>
+
+								<div class="fields multi">
+									<label for=""><input type="radio" name="allowComments" value="0" checked="checked" /> Wszyscy</label>
+									<label for=""><input type="radio" name="allowComments" value="1" /> Użytkownicy Jogger.pl</label>
+									<label for=""><input type="radio" name="allowComments" value="2" /> Nikt</label>
+								</div>
+							</div>
+
+							<div class="grid">
+								<label for="entryLevel">Poziom:</label>
+								<div class="fields">
+									<select id="entryLevel" name="entryLevel">
+										<option value="1">Poziom 1 - Wpisy widoczne tylko na moim joggerze</option>
+										<option value="2" selected="selected">Poziom 2 - Wpisy widoczne tylko dla zalogowanych</option>
+									</select>
+								</div>
+							</div>
+
+                            <div class="indent">
+    							<div class="fields">
+    								<label for=""><input type="checkbox" name="entryNotify" value="1" /> Powiadom śledzących komentarze o edycji wpisu</label>
+    							</div>
+							</div>							
+						</fieldset>
+					</div>
+				</div><!-- main -->
+
+				<div class="sidebar">
+					<div class="padding">
+
+						<fieldset>
+							<div class="list">
+								<label class="normal">Przypisz wpis do kategorii:</label>
+
+								<ul>
+									<li><label for="category-0"><input id="category-0" type="checkbox" name="entryCategory[]" value="0" checked="checked"/> Ogólne</label>
+									<li><label for="category-1"><input id="category-1" type="checkbox" name="entryCategory[]" value="1" checked="checked"/> Kategoria1</label>
+        
+									</li>
+
+								</ul>							
+							</div>
+							<div class="block">
+
+								<label for="">Dodaj kategorie:</label>
+								<div class="fields multi"><input class="edit" type="text" name="addCategory" size="25" title="Oddzielaj przecinkami" /> <input class="sibling" type="submit" name="submitAddCategory" value="Dodaj" /></div>
+							</div>
+						</fieldset>
+						
+						<div class="about flow">
+							<p>Dodawać wpisy możesz także przez Jabbera - prosto ze swojego komunikatora internetowego. <a class="help" href="http://wiki.jogger.pl/wiki/Bot">?</a></p>
+						</div>
+
+					</div>
+				</div><!-- sidebar -->
+			
+			</form>
+		</div>
+	</div><!-- content -->
+
+	<hr />
+	<div id="footer">
+		<div class="wrap">
+			<ul>
+				<li><a href="http://blog.jogger.pl">Blog</a></li>
+				<li><a href="http://wiki.jogger.pl">Informacje</a></li>
+				<li><a href="http://jogger.pl/regulamin/">Regulamin</a></li>
+                <li><a href="http://jogger.pl/kontakt/">Kontakt</a></li>
+				<li><a href="http://forum.jabberpl.org/index.php?showforum=11">Forum</a></li>
+<!--
+				<li><a href="">Prywatność</a></li>
+				<li><a href="">Team</a></li>
+-->
+			</ul>
+			<p><a href="#top">Na górę</a></p>
+			<address>Copyright &copy; 2003-2013 <a href="http://jogger.pl/kontakt/">Robert Wróbel</a><br /> Design by <a href="http://riddle.pl/">Riddle</a></address>
+		</div>
+	</div><!-- footer -->
+</body>
+</html>
