@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='jogger-util',
-      version='0.1',
+      version='0.1.1',
       description='Experimental utility to mass edit your jogger.pl blog entries',
       author='Maciej Bliziński',
       author_email='maciej.blizinski@gmail.com',
@@ -11,7 +11,11 @@ setup(name='jogger-util',
       packages=['jogger'],
       package_dir={'jogger': 'jogger'},
       package_data={'jogger': ['testdata/*.html']},
-      scripts=['jogger/jogger-set-all-entries'],
+      entry_points={
+        'console_scripts': [
+          'jogger-set-all-entries = jogger.comments_on_all_entries:main'
+        ],
+      },
       install_requires=[
         'beautifulsoup4>=4.0.0',
         'requests>=2.0.0',
