@@ -1,6 +1,8 @@
 jogger-util
 ===========
 
+*Jogger has been locked down in May 2016, and so this utility serves no purpose any more.*
+
 An experimental utility to mass-edit your blog entries on jogger.pl
 
 https://github.com/automatthias/jogger-util
